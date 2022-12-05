@@ -35,3 +35,12 @@ I want to master javaScript at a professional level.
 
 console.log(maskify('4556364607935616')); 
 console.log(maskify('616')); 
+```
+
+## Education:
+
+Academy of Marketing and Social Information Technologies - IMSIT (Krasnodar)
+
+## English:
+
+Beginner
