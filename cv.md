@@ -8,3 +8,16 @@
 * [Telegram](https://t.me/anattok "Telegram")
 * [Discord](https://github.com/anattok "GitHub")
 * [GitHub](https://github.com/anattok "GitHub")
+## About Me:
+
+
+I want to master javaScript at a professional level.
+
+## Skills:
+
+* HTML
+* CSS/SCSS
+* BEM
+* JavaScript (Basic)
+* Gulp
+* Git
