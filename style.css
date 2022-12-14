@@ -1,0 +1,230 @@
+/*reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*reset*/
+
+body {
+  font-family: "Anton", sans-serif;
+  color: #3f3d3e;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+.title {
+  font-size: 36px;
+  font-weight: 400;
+  color: #ba0101;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.section {
+  margin-top: 50px;
+}
+/*header*/
+.header {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__picture {
+  width: 240px;
+  height: 260px;
+  border: 8px solid #fff;
+  box-shadow: -14px 14px 6px -10px rgba(34, 60, 80, 0.2),
+    14px 14px 6px -10px rgba(34, 60, 80, 0.2);
+}
+.header__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header__mail {
+  text-align: right;
+}
+.header__mail a {
+  color: #a6a4a5;
+  font-size: 24px;
+  font-family: "Almarai", sans-serif;
+  text-transform: uppercase;
+}
+.header__mail a:hover {
+  color: #ba0101;
+}
+.header__title {
+  font-size: 80px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #3f3d3e;
+}
+.header__title span {
+  color: #ba0101;
+}
+.header__subtitle {
+  font-family: "Almarai", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #a6a4a5;
+}
+/*about*/
+.about__text {
+  font-size: 24px;
+}
+/*contacts*/
+.contacts__block {
+  margin-bottom: 10px;
+  font-size: 24px;
+  position: relative;
+  padding-left: 40px;
+}
+.contacts a {
+  color: #3f3d3e;
+}
+.contacts a:hover {
+  color: #ba0101;
+}
+.contacts__telegram::before {
+  position: absolute;
+  content: "";
+  background-image: url("img/telegram.svg");
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+}
+.contacts__discord::before {
+  position: absolute;
+  content: "";
+  background-image: url("img/discord.svg");
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+}
+.contacts__github::before {
+  position: absolute;
+  content: "";
+  background-image: url("img/github.svg");
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+}
+/*skills*/
+.skills__name {
+  color: #fff;
+  z-index: 1;
+}
+.skills__percent {
+  font-family: "Almarai", sans-serif;
+  color: #fff;
+  z-index: 1;
+}
+.skills__line {
+  padding: 0 20px;
+  height: 30px;
+  width: 100%;
+  background-color: #a6a4a5;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+}
+
+.skills__html::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 90%;
+  background-color: #ba0101;
+  top: 0;
+  left: 0;
+}
+.skills__css::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 70%;
+  background-color: #ba0101;
+  top: 0;
+  left: 0;
+}
+.skills__js::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30%;
+  background-color: #ba0101;
+  top: 0;
+  left: 0;
+}
+
+/*code-example*/
+.code-example__code {
+  font-size: 24px;
+  font-weight: bold;
+  overflow: hidden;
+  display: block;
+}
+/*educational-projects*/
+
+.educational-projects__link a {
+  font-family: "Almarai", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #3f3d3e;
+}
+.educational-projects__link a:hover {
+  color: #ba0101;
+}
+/*education*/
+.education__text {
+  font-size: 24px;
+}
+/*english*/
+.english__text {
+  font-size: 24px;
+}
+/*footer*/
+.footer{
+  margin-top: 50px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ba0101;
+}
+.footer__git a{
+  font-size: 36px;
+  color: #000;
+
+}
+.footer__git a:hover{
+  color: #fff;
+}
+.footer__year{
+  font-size: 36px;
+  color: #fff;
+}
+.footer__logo{
+  background-color: rgb(218, 181, 18);
+  width: 300px;
+}
