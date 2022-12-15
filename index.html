@@ -15,27 +15,51 @@
 <body>
     <div class="container">
         <header class="header">
-            <figure class="header__avatar"><img class="header__picture" src="img/photo.jpg" alt="avatar"></figure>
-            <div class="header__column">
-                <div class="header__mail"><a href="mailto:tokarev182@yandex.ru">tokarev182@yandex.ru</a></div>
-                <h1 class="header__title">Anatoliy <span>Tokarev</span></h1>
-                <h3 class="header__subtitle">Frontend-developer</h3>
+            <div class="header__top">
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item"><a href="#about" class="header__menu-link">ABOUT ME</a></li>
+                        <li class="header__menu-item"><a href="#contacts" class="header__menu-link">CONTACTS</a></li>
+                        <li class="header__menu-item"><a href="#skills" class="header__menu-link">SKILLS</a></li>
+                        <li class="header__menu-item"><a href="#code" class="header__menu-link">CODE EXAMPLE</a></li>
+                        <li class="header__menu-item"><a href="#projects" class="header__menu-link">EDUCATIONAL
+                                PROJECTS</a></li>
+                        <li class="header__menu-item"><a href="#education" class="header__menu-link">EDUCATION</a></li>
+                        <li class="header__menu-item"><a href="#english" class="header__menu-link">ENGLISH</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header__bottom">
+                <figure class="header__avatar"><img class="header__picture" src="img/photo.jpg" alt="avatar"></figure>
+                <div class="header__column">
+                    <div class="header__mail"><a href="mailto:tokarev182@yandex.ru">tokarev182@yandex.ru</a></div>
+                    <h1 class="header__title">Anatoliy <span>Tokarev</span></h1>
+                    <h3 class="header__subtitle">Frontend-developer</h3>
+                </div>
             </div>
         </header>
         <main class="main">
-            <section class="about section">
+            <section class="about section" id="about">
                 <h2 class="about__title title">About me</h2>
                 <p class="about__text">Hello! I am studying to be a Frontend-developer. I want to master JavaScript and
                     the React framework at a professional level, and make cool interfaces.</p>
             </section>
-            <section class="contacts section">
+            <section class="contacts section" id="contacts">
                 <h2 class="contacts__title title">Contacts</h2>
                 <ul class="contacts__wrapper">
-                    <li class="contacts__block"><a href="https://t.me/anattok" class="contacts__link contacts__telegram">Telegram</a></li>
-                    <li class="contacts__block"><a href="https://github.com/anattok" class="contacts__link contacts__github">GitHub</a></li>
+                    <li class="contacts__block">
+                        <p class="contacts__link contacts__location">St. Petersburg</p>
+                    </li>
+                    <li class="contacts__block"><a class="contacts__link contacts__phone"
+                            href="tel:+79992388165">+7-999-238-81-65</a></li>
+                    <li class="contacts__block"><a class="contacts__link contacts__telegram"
+                            href="https://t.me/anattok">Telegram</a></li>
+                    <li class="contacts__block"><a class="contacts__link contacts__github"
+                            href="https://github.com/anattok">GitHub</a></li>
                 </ul>
             </section>
-            <section class="skills section">
+            <section class="skills section" id="skills">
                 <h2 class="skills__title title">Skills</h2>
                 <ul class="skills__wrapper">
                     <li class="skills__block">
@@ -59,7 +83,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="code-example section">
+            <section class="code-example section" id="code">
                 <h2 class="code-example__title title">Code Example</h2>
                 <div class="code-example__code">
                     <pre>
@@ -74,19 +98,21 @@
                     </pre>
                 </div>
             </section>
-            <section class="educational-projects section">
+            <section class="educational-projects section" id="projects">
                 <h2 class="educational-projects__title title">Educational projects</h2>
                 <ul class="educational-projects__list">
-                    <li class="educational-projects__link"><a href="https://anattok.github.io/repair-phone/">Educational project: "Repair-phone"</a></li>
-                    <li class="educational-projects__link"><a href="https://anattok.github.io/gecocorp/">Educational project: "GekoCorp"</a></li>
+                    <li class="educational-projects__link"><a href="https://anattok.github.io/repair-phone/">Educational
+                            project: "Repair-phone"</a></li>
+                    <li class="educational-projects__link"><a href="https://anattok.github.io/gecocorp/">Educational
+                            project: "GekoCorp"</a></li>
                 </ul>
             </section>
-            <section class="education section">
+            <section class="education section" id="education">
                 <h2 class="education__title title">Education</h2>
                 <p class="education__text">Academy of Marketing and Social Information Technologies - IMSIT (Krasnodar)
                 </p>
             </section>
-            <section class="english section">
+            <section class="english section" id="english">
                 <h2 class="english__title title">English</h2>
                 <p class="english__text">Beginner</p>
             </section>
@@ -94,7 +120,8 @@
         <footer class="footer">
             <div class="footer__git"><a href="https://github.com/anattok">GitHub Anatoliy Tokarev</a></div>
             <div class="footer__year">2022 year</div>
-            <div class="footer__logo"><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs_school_logo"></a></div>
+            <div class="footer__logo"><a href="https://rs.school/js/"><img
+                        src="https://rs.school/images/rs_school_js.svg" alt="rs_school_logo"></a></div>
         </footer>
     </div>
 </body>

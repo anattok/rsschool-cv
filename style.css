@@ -37,7 +37,23 @@ body {
 .header {
   padding-top: 60px;
   display: flex;
+  flex-direction: column;
+}
+.header__bottom{
+  display: flex;
   justify-content: space-between;
+}
+.header__menu-list{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.header__menu-link{
+  font-size: 24px;
+  color: #3f3d3e;
+}
+.header__menu-link:hover{
+  color: #ba0101;
 }
 .header__picture {
   width: 240px;
@@ -96,11 +112,34 @@ body {
 .contacts a:hover {
   color: #ba0101;
 }
+.contacts__location::before {
+  position: absolute;
+  content: "";
+  background-image: url("img/location.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+}
+.contacts__phone::before {
+  position: absolute;
+  content: "";
+  background-image: url("img/phone.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+}
 .contacts__telegram::before {
   position: absolute;
   content: "";
   background-image: url("img/telegram.svg");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 32px;
   height: 32px;
   top: 0;
@@ -110,7 +149,8 @@ body {
   position: absolute;
   content: "";
   background-image: url("img/discord.svg");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 32px;
   height: 32px;
   top: 0;
@@ -120,12 +160,14 @@ body {
   position: absolute;
   content: "";
   background-image: url("img/github.svg");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 32px;
   height: 32px;
   top: 0;
   left: 0;
 }
+
 /*skills*/
 .skills__name {
   color: #fff;
